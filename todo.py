@@ -1,10 +1,10 @@
 todo=[]
 
 
-
-
 x=input("What do you want to add to your tolist: ")
+
 todo.append(x)
+
 print(todo)
 
 
@@ -18,6 +18,8 @@ while True:
       todo.append(z)
     elif h=="n":
       print ("great ")
+      print(f"your todo list is {todo}")
+      break
   else: 
     print("Please enter y or n for Yes or No")
     

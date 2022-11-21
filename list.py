@@ -70,7 +70,7 @@ print(mylist+secondList)
 print()
 
 #Allows you to output the list without the bracets and quotations
-print(" ".join(mylist+secondList))
+print(type(" ".join(mylist)))
 
 print()
 

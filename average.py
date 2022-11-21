@@ -19,4 +19,4 @@ sum=0
 for i in grade:
     sum=i+sum
 print(sum/len(grade))
-    
+
