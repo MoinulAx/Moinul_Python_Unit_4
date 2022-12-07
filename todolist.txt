@@ -1,2 +1,4 @@
 sdfsdf
 sdfsdf
+/usr/local/bin/python3 /Users/eternalcyberunity/Desktop/Moinul_Python_Unit_4/op.py
+/usr/local/bin/python3 /Users/eternalcyberunity/Desktop/Moinul_Python_Unit_4/op.py

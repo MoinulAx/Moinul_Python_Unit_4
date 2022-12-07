@@ -1,4 +1,4 @@
-# from turtle import *
+from turtle import *
 # speed(0)
 # user_int = int(input("Enter an integer: "))
 # for i in range(1, user_int):5
@@ -39,20 +39,27 @@
 #     continue
 #   print(a)
 
-comp_brands = ["Apple", "Asus", "Dell", "Samsung"]
+# comp_brands = ["Apple", "Asus", "Dell", "Samsung"]
 
-i = 0
+# i = 0
 
-while i < len(comp_brands):
-  print(comp_brands[i])
+# while i < len(comp_brands):
+#   print(comp_brands[i])
   
-  if i == "dell":
-    continue
+#   if i == "dell":
+#     continue
 
-  i = i + 1
+#   i = i + 1
 
 
+penup()
+backward(150)
 
+for i in range(10, 50 ,10):
+    forward(i * 2)
+    pendown()
+    circle(i)
+    penup()
 
 
 
