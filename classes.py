@@ -11,14 +11,23 @@ class Person:
     def hi(self):
         print("Hi my name is "+self.name)
 
+class Teacher(Person):
+    role='teacher'
+    
+    def hi(self):
+        print("Hi my name is Mx."+self.name)
 
-moinul=Person("moinul",45)
+class Student(Person):
+    role="students"
+
+moinul=Student("moinul",45)
 
 print(moinul.name)
 print(moinul.age)
 print(moinul.species)
 moinul.hello()
 moinul.hi()
+print(moinul.role)
 
 
 print()
@@ -31,3 +40,8 @@ print(micheal.species)
 micheal.hello()
 micheal.hi()
 
+print()
+
+forlenza= Teacher('forlenza',184)
+print(forlenza.role)
+forlenza.hi()
